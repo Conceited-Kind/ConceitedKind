@@ -98,30 +98,33 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: calc(33.333% - 20px);
     margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
   }
   
   .project-image {
     width: 100%;
     height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
   }
   
   .project-title {
     font-size: 1.5em;
-    margin: 10px;
+    margin: 10px 0;
   }
   
   .project-description {
-    padding: 0 10px;
     font-size: 1em;
     color: #666;
+    margin-bottom: 15px;
   }
   
   .project-links {
-    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
   }
   
   .project-links a {
@@ -132,4 +135,20 @@ body {
   
   .project-links a:hover {
     text-decoration: underline;
+  }
+
+  /* Divider */
+  .project-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 40px 0;
+  }
+
+  /* Section Heading */
+  .project-section-heading {
+    font-size: 2em;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
   }
