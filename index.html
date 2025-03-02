@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>ConceitedKind</title>
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-</body>
+</html>
+<header>
+    <h1>Allan Kinuva</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to My Website</h2>
+    <p>Greetings and Salutations,My name is Allan Kinuva a web developer with a degree in software engineering and a certificate from a boot camp by the name Moringa School.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Apart from being a full stack web developer, i am also passionate about arts and designing and being able to create designs for myself and showcase them makes me happy especially anything relating to anime.I also show great interest in cars and archictectural designs.Even after ignoring my architecturial paths to engage in technology i am confident that in the future i will be able to use them to makes this world a better place.</p>
+</section>
+
+<section id="portfolio">
+    <h2>My Main Projects</h2>
+    <div id="projects-container">
+        <!--Arts and Designs Project-->
+        <div class="project-card">
+          <img src="https://i.pinimg.com/236x/1d/ac/c3/1dacc3e46541fed40c37c6b4a4822318.jpg" alt="Arts and Designs Project Screenshot" class="project-image">
+            <h3 class="project-title">Arts and Designs Project</h3>
+            <p class="project-description">An Arts and designs project displaying the creativity and proper designs.</p>
+            <div class="project-links">
+              <a href="https://Arts-and-Designs-Project-demo.com" target="_blank" class="view-project-btn">View Project</a>
+              <a href="https://github.com/Conceited-Kind/Arts-and-Designs-Project" target="_blank">GitHub</a>
+              <a href="https://Arts-and-Designs-Project-demo.com" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+        <!--Software Development Project-->
+        <div class="project-card">
+          <img src="https://i.pinimg.com/474x/62/88/5b/62885bc372e05ee0dde3b4f0dcf22b2c.jpg" alt="Software Development Project Screenshot" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">Software Development Project</h3>
+              <p class="project-description">A Project showcasing the designs that streamline the software development process, </p>
+              <p class="project-technologies">Technologies: React, Node.js</p>
+              <div class="project-links">
+                <a href="https://Software-Development-Project.com" target="_blank" class="view-project-btn">View Project</a>
+                <a href="https://conceited-kind.github.io/Software-Development-Project/" target="_blank">GitHub</a>
+                <a href="https://Software-Development-Project-demo.com" target="blank">Live Demo</a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+  <footer>
+    <p>View my project in <a href="http://localhost:8000" target="_blank">Google Chrome</a></p>
+      <p>&copy; 2025 Allan Kinuva. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
 </html>
